@@ -6,7 +6,8 @@ import css from 'rollup-plugin-import-css';
 import copy from 'rollup-plugin-copy';
 
 import commonjs from '@rollup/plugin-commonjs';
-import { uglify } from 'rollup-plugin-uglify';
+// import { uglify } from 'rollup-plugin-uglify';
+import { terser as uglify } from '@rollup/plugin-terser';
 import json from '@rollup/plugin-json';
 
 const production = !process.env.ROLLUP_WATCH;
