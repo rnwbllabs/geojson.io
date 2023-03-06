@@ -39,6 +39,7 @@
     "mapbox-gl": "^2.13.0",
     "numeral": "^2.0.6",
     "osmtogeojson": "3.0.0-beta.5",
+    "package.json": "^2.0.1",
     "polytogeojson": "0.0.1",
     "qs-hash": "0.0.0",
     "shp-write": "0.3.2",
