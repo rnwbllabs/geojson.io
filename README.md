@@ -35,6 +35,10 @@ Full API documentation can be found in [API.md](API.md).
 
 If you get an error resolving dependencies related to `rollup` on newer versions of node, then try `npm install --force` and be sure to not commit changes to `package-lock.json`.
 
+## Run Docker
+
+1. Run "docker compose up" to build and run image
+
 ## Production Build & Deployment
 
 `npm run build` will create minified bundles in `/dist`. You can try out the production build with `npm run serve` which will run live-server.
